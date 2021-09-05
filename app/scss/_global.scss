@@ -1,24 +1,46 @@
-html{
+html {
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 35px;
+  line-height: 42px;
+  color: #232323;
+}
+
 html,
-body{
+body {
   position: relative;
   overflow-x: hidden;
-  height: 100%;
 }
+
 *,
 *::before,
-*::after{
+*::after {
   box-sizing: inherit;
 }
-a{
+
+a {
   display: inline-block;
   color: inherit;
 }
+
 ul,
-li{
+li {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.-title {
+  max-width: 1320px;
+  padding: 0 15px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  color: #232323;
 }
